@@ -1,0 +1,50 @@
+.checkbox-dropdown {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.company-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 200px;
+}
+
+.selected-companies {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.clear-selection {
+  font-size: 12px;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}

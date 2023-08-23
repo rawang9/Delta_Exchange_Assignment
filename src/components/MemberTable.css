@@ -1,0 +1,39 @@
+table,
+tr,
+td,
+thead,
+tbody,
+th {
+  border: none;
+}
+
+/* MemberTable.css */
+.member-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* border-style: hidden; */
+}
+
+.member-table th,
+.member-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.member-table th {
+  background-color: #f9f9f9;
+}
+
+.even-row {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #ddd;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: red;
+}
